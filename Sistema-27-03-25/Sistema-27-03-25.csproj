@@ -7,4 +7,8 @@
     <RootNamespace>Sistema_27_03_25</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+  </ItemGroup>
+
 </Project>
