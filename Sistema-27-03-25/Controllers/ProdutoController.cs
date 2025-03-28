@@ -23,8 +23,8 @@ namespace Sistema_27_03_25.Controllers
         {
             if (ModelState.IsValid)
             {
-                _produtoRepositorio.AdicionarUsuario(produto);
-                return RedirectToAction("Login");
+                _produtoRepositorio.AdicionarProduto(produto);
+                return RedirectToAction("Cadastro");
             }
             return View(produto);
         }

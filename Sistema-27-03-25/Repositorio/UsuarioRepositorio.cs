@@ -43,11 +43,8 @@ namespace Sistema_27_03_25.Repositorio
                             Nome = reader.GetString("Nome"),
                             Email = reader.GetString("Email"),
                             Senha = reader.GetString("Senha"),
-
                         };
-
                     }
-
                 }
                 return null;
             }

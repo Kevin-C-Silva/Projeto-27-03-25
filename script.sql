@@ -8,9 +8,12 @@ Email varchar(50) not null,
 Senha varchar(50) not null
 );
 
-create table Produtos(
+create table Produto(
 Id int primary key auto_increment,
 Nome varchar(50) not null,
 Descricao varchar(200) not null,
 Preco decimal(5,2) not null
 );
+drop table Usuario;
+select * from Usuario;
+select * from Produto;
